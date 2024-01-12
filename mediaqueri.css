@@ -1,9 +1,28 @@
 /* laptop */
 
+@media(max-width:1200px) {
+    html {
+        font-size: 80%;
+    }
+    section {
+        padding: 6rem 0;
+        height: 100vh;
+        margin: 0 8.5rem;
+    }
+}
+
 
 /* tablet */
 
-@media (max-width:980px) {
+@media (max-width: 980px) {
+    html {
+        font-size: 70%;
+    }
+    section {
+        padding: 5rem 0;
+        height: 100vh;
+        margin: 0 5rem;
+    }
     #menu {
         display: inline;
     }
@@ -22,5 +41,27 @@
     }
     nav .active {
         right: 0;
+    }
+}
+
+
+/* phone */
+
+@media(max-width:500px) {
+    section {
+        height: fit-content;
+        margin: 7rem 5% 0;
+    }
+    nav {
+        height: 9vh;
+    }
+    .profile {
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    figure img {
+        width: 300px;
+        border-radius: 50%;
     }
 }

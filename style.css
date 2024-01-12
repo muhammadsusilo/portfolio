@@ -7,6 +7,7 @@
  :root {
     --bg: rgba(255, 255, 255, 0.89);
     --border: rgba(0, 0, 0, 0.519);
+    --gray: rgb(60, 60, 60);
 }
 
 body {
@@ -23,7 +24,7 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem 7%;
     height: 15vh;
@@ -62,3 +63,52 @@ nav ul li a:hover {
 
 
 /* Section Profile Start */
+
+section {
+    padding: 7rem 0;
+    height: 100vh;
+    margin: 0 10rem;
+}
+
+.profile {
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.section-text {
+    text-align: center;
+    line-height: 2;
+}
+
+.section-text p {
+    font-size: 1rem;
+    color: var(--gray);
+}
+
+.section-text h2 {
+    font-size: 2.5rem;
+}
+
+.section-text .front {
+    font-size: 1.7rem;
+}
+
+.btn-profile button {
+    padding: 5px 12px;
+    border-radius: 10px;
+    color: var(--gray);
+    cursor: pointer;
+}
+
+.sosial-link i {
+    padding: .5rem 0;
+    font-size: 2.2rem;
+    color: black;
+}

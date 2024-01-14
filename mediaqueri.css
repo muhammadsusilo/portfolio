@@ -61,7 +61,14 @@
         text-align: center;
     }
     figure img {
-        width: 300px;
+        width: 270px;
         border-radius: 50%;
+    }
+    /* section about */
+    main {
+        flex-direction: column-reverse;
+    }
+    .figur-about img {
+        width: 270px;
     }
 }

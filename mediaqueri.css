@@ -49,8 +49,9 @@
 
 @media(max-width:500px) {
     section {
-        height: fit-content;
-        margin: 7rem 5% 0;
+        /* height: fit-content; */
+        height: 70vh;
+        margin: 3rem 5% 0;
     }
     nav {
         height: 9vh;
@@ -70,5 +71,17 @@
     }
     .figur-about img {
         width: 270px;
+    }
+    .skills-text {
+        padding-bottom: 1rem;
+    }
+    .skills ul {
+        display: grid;
+        /* grid-template-columns: 1fr;
+        grid-template-areas: "skills skills"; */
+    }
+    .project-kotak {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }

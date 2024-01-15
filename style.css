@@ -231,8 +231,6 @@
     footer {
         font-size: 1rem;
         height: 3rem;
-        /* background-color: orange; */
-        /* text-align: center; */
         display: flex;
         justify-content: center;
         align-items: center;

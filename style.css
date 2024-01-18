@@ -62,7 +62,7 @@
     
     section {
         padding: 7rem 0;
-        height: 100vh;
+        height: 100%;
         margin: 0 10rem;
     }
     
@@ -117,7 +117,6 @@
     
     .figure-about img {
         width: 350px;
-        /* width: 170%; */
         border-radius: 5%;
     }
     
@@ -142,9 +141,11 @@
     
     .skills a {
         font-size: 1.5rem;
+        text-align: center;
         background-color: gray;
-        padding: 1rem 1.5rem;
+        padding: 2rem 1rem;
         margin: 0 1rem;
+        border-radius: 5px;
     }
     /* section Skills end */
     /* section project start */
@@ -191,7 +192,7 @@
     /* section contact start */
     
     .contact {
-        height: 90vh;
+        position: sticky;
     }
     
     .contact h2 {

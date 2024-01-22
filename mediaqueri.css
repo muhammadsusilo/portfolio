@@ -1,13 +1,8 @@
 /* laptop */
 
 @media(max-width:1200px) {
-    html {
-        font-size: 80%;
-    }
     section {
-        padding: 6rem 0;
-        height: 100vh;
-        margin: 0 8.5rem;
+        margin: 0 4rem;
     }
 }
 
@@ -16,12 +11,28 @@
 
 @media (max-width: 980px) {
     html {
-        font-size: 70%;
+        font-size: 85%;
+    }
+    nav {
+        height: 11vh;
     }
     section {
+        margin: 0 3rem;
         padding: 5rem 0;
-        height: 100vh;
-        margin: 0 5rem;
+    }
+}
+
+
+/* phone */
+
+@media(max-width:500px) {
+    section {
+        height: 100%;
+        margin: 6rem 5%;
+        padding: 0;
+    }
+    .profile {
+        margin-top: 0;
     }
     #menu {
         display: inline;
@@ -41,16 +52,6 @@
     }
     nav .active {
         right: 0;
-    }
-}
-
-
-/* phone */
-
-@media(max-width:500px) {
-    section {
-        height: 100%;
-        margin: 1rem 5% 0;
     }
     nav {
         height: 9vh;

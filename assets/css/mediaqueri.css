@@ -34,6 +34,9 @@
     .profile {
         margin-top: 0;
     }
+    .profile figure img {
+        width: 430px;
+    }
     #menu {
         display: inline;
     }
@@ -62,9 +65,12 @@
         text-align: center;
         padding-top: 9rem;
     }
-    figure img {
-        width: 350px;
-        border-radius: 50%;
+    .detail-project {
+        width: 330px;
+    }
+    .article-project img {
+        width: 300px;
+        border-radius: 20px;
     }
     /* section about */
     main {

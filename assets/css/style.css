@@ -287,6 +287,17 @@ article {
     font-size: 1.5rem;
 }
 
+.contact p {
+    padding: 2px;
+    width: max-content;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.contact p:hover {
+    background-color: rgb(177, 99, 249);
+}
+
 .contact-box {
     padding: 1rem 0;
     display: flex;

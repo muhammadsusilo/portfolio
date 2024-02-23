@@ -37,6 +37,9 @@
     .profile figure img {
         width: 430px;
     }
+    .section-text .front {
+        font-size: 1.3rem;
+    }
     #menu {
         display: inline;
     }

@@ -26,6 +26,12 @@
 /* phone */
 
 @media(max-width:500px) {
+    html {
+        font-size: 75%;
+    }
+    body {
+        overflow-x: hidden;
+    }
     section {
         height: 100%;
         margin: 6rem 5%;
@@ -70,13 +76,13 @@
         margin-top: 0;
     }
     .profile figure img {
-        width: 430px;
+        width: 420px;
     }
     .section-text .front {
         font-size: 1.3rem;
     }
     .detail-project {
-        width: 330px;
+        width: 320px;
     }
     .article-project img {
         width: 300px;
@@ -108,6 +114,9 @@
 }
 
 @media (max-width:400px) {
+    .profile figure img {
+        width: 380px;
+    }
     .figure-about img {
         width: 255px;
     }

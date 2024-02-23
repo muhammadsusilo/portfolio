@@ -31,17 +31,12 @@
         margin: 6rem 5%;
         padding: 0;
     }
-    .profile {
-        margin-top: 0;
-    }
-    .profile figure img {
-        width: 430px;
-    }
-    .section-text .front {
-        font-size: 1.3rem;
+    nav {
+        height: 2rem;
     }
     #menu {
         display: inline;
+        font-size: 3rem;
     }
     .list {
         position: absolute;
@@ -56,8 +51,8 @@
         align-items: center;
         padding-top: 1rem;
     }
-    .list li a {
-        margin-bottom: 2rem;
+    .list li {
+        margin-bottom: 3rem;
     }
     nav .active {
         right: 0;
@@ -71,6 +66,15 @@
         text-align: center;
         padding-top: 9rem;
     }
+    .profile {
+        margin-top: 0;
+    }
+    .profile figure img {
+        width: 430px;
+    }
+    .section-text .front {
+        font-size: 1.3rem;
+    }
     .detail-project {
         width: 330px;
     }
@@ -83,8 +87,10 @@
     /* section about */
     main {
         flex-direction: column-reverse;
+        justify-items: center;
+        align-items: center;
     }
-    .figur-about img {
+    .figure-about img {
         width: 270px;
     }
     .skills-text {
@@ -98,5 +104,19 @@
     .project-kotak {
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+
+@media (max-width:400px) {
+    .figure-about img {
+        width: 255px;
+    }
+    .skills {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .skills a {
+        padding: 1.5rem .7rem;
     }
 }

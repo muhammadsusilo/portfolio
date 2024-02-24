@@ -318,13 +318,18 @@ article {
 .contact-small a {
     color: black;
     text-decoration: none;
-    transition: all 0.4s ease;
+    /* transition: all 0.4s ease; */
 }
 
 .contact-small .email-small a:hover,
 .contact-small .linkedin-small a:hover,
 .contact-small .github-small a:hover {
     right: 50px;
+}
+
+.contact a:hover {
+    background-color: rgb(177, 99, 249);
+    padding: 4px 9px;
 }
 
 

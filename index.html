@@ -20,11 +20,13 @@
     <!-- navigation start -->
     <nav>
         <div class="logo">
-            <h2 class="animate__animated animate__wobble animate__infinite">MS<span>.</span></h2>
+            <h2 class="animate__animated animate__wobble animate__infinite">
+                <a href="#profile">MS<span>.</span></a>
+            </h2>
         </div>
         <ul class="list">
             <li>
-                <a href="/">About</a>
+                <a href="#about">About</a>
             </li>
             <li>
                 <a href="#skills">Skills</a>
@@ -40,11 +42,14 @@
     </nav>
 
     <!-- Section Profile Start -->
-    <section class="profile">
+    <section id="profile" class="profile
+    animate__animated animate__fadeInUpBig animate__delay-1s
+    ">
         <figure>
             <img src="/assets/img.svg" alt="Foto Profile Muhammad Susilo">
         </figure>
-        <div class="section-text">
+        <div class="section-text
+        animate__animated animated__backInUp">
             <p>Hello I'am<span>_____</span></p>
             <h2>Muhammad Susilo</h2>
             <p class="front">Software Developer || Front End Developer</p>
@@ -68,7 +73,8 @@
     </section>
     <!-- Section Profile end -->
     <!-- Section About start -->
-    <section class="about" id="about">
+    <section class="about 
+    animate__animated animated__backInUp" id="about">
         <h1 class="title">About Me</h1>
         <main>
             <figure class="figure-about"> <img src="assets/img/picofme.png" alt="About muhammadsusilo"></figure>
@@ -82,7 +88,8 @@
     </section>
     <!-- Section About end -->
     <!-- section  Skills start-->
-    <section id="skills">
+    <section id="skills
+    animate__animated animated__backInUp">
         <div class="skills-text">
             <h1 class="title">My skills</h1>
             <article>
@@ -103,7 +110,8 @@
     </section>
     <!-- section  Skills end-->
     <!-- section project start -->
-    <section class="project" id="project">
+    <section class="project
+    animate__animated animated__backInUp" id="project">
         <h2>Project</h2>
         <div class="project-kotak">
             <div class="detail-project">
@@ -154,16 +162,18 @@
     </section>
     <!-- section project end -->
     <!-- section contact start -->
-    <section class="contact" id="contact">
+    <section class="contact
+    animate__animated animated__backInUp" id="contact">
         <h2>Contact Me</h2>
         <p>
             This is my contact,br <br> please feel free to contact me !!!
         </p>
         <div class="contact-box">
-            <div class="contact-small">
+            <div class="contact-small ">
                 <div class="email-small"><i class='bx bx-envelope'></i>
                     <a>muhammadsusilo238@gmail.com</a>
                 </div>
+                <!--  mailto:email@email.com -->
                 <div class="linkedin-small "><i class='bx bxl-linkedin-square'></i>
                     <a href="https://www.linkedin.com/in/muhammadsusilo/ " target="_blank ">Linkedin</a>
                 </div>
@@ -175,7 +185,7 @@
     </section>
     <!-- section contact end -->
     <!-- footer start -->
-    <footer>
+    <footer class="animate__animated animated__backInUp">
         <p>&copy;Copyright 2024 by <span> Muhammad Susilo </span>&reg;</p>
         <p>Build in project web <span>HTML5</span><span>CSS3</span><span>JavaScript</span></p>
     </footer>

@@ -76,11 +76,21 @@ nav ul li a:hover {
 
 /* Section Profile Start */
 
-section {
+.section {
     padding: 8rem 0;
     height: 100%;
     margin: 0 8rem;
 }
+
+
+/* .about,
+.profile,
+.skills,
+.contact {
+    padding: 8rem 0;
+    height: 100%;
+    margin: 0 8rem;
+} */
 
 .profile {
     margin-top: 3rem;

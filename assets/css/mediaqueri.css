@@ -25,17 +25,17 @@
 
 /* phone */
 
-@media(max-width:500px) {
+@media(max-width:450px) {
     html {
         font-size: 75%;
     }
     body {
         overflow-x: hidden;
     }
-    section {
+    .section {
         height: 100%;
-        margin: 6rem 5%;
         padding: 0;
+        margin: 6rem 5%;
     }
     nav {
         height: 2rem;

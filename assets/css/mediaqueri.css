@@ -99,6 +99,11 @@
     .figure-about img {
         width: 270px;
     }
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .skills-text {
         padding-bottom: 1rem;
     }
@@ -113,17 +118,12 @@
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:380px) {
     .profile figure img {
         width: 365px;
     }
     .figure-about img {
         width: 255px;
-    }
-    .skills {
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     .skills a {
         padding: 1.5rem .7rem;
